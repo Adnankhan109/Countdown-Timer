@@ -3,7 +3,10 @@ import { cn } from "@/lib/utils";
 
 //Commented out code for InputProps interface (agar zarurat ho):
 export interface InputProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {}
+export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+  customProp?: string; // Aap apne custom properties yahaan add kar sakte hain
+}
+
   //export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {}
 
 
